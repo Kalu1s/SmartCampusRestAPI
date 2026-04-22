@@ -40,16 +40,6 @@ A RESTful Smart Campus API built using JAX-RS to manage rooms, sensors, and sens
 
 ---
 
-## 🚀 How to Run
-
-1. Install JDK 11
-2. Start Payara Server
-3. Deploy the project using NetBeans or Maven
-4. Access the API at:
-   `http://localhost:8080/SmartCampus/api/v1`
-
----
-
 ## 📄 Report
 
 ### Service Architecture & Setup
