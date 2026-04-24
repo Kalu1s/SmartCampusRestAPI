@@ -39,7 +39,7 @@ A RESTful Smart Campus API built using JAX-RS to manage rooms, sensors, and sens
 * `POST /api/v1/sensors/{id}/readings`
 
 ---
-
+# I have implemeneted the 500 Internal error feature but mistakenly forgot to explain it in the demonstration video.
 ## 📄 Report
 
 ### Service Architecture & Setup
