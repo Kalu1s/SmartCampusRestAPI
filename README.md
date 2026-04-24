@@ -1,7 +1,7 @@
 # SmartCampusRestAPI
 A RESTful Smart Campus API built using JAX-RS to manage rooms, sensors, and sensor readings with proper resource design, sub-resource nesting, filtering, and robust error handling.
 
-## 🧱 Features
+## Features
 
 * Room management (create, retrieve, delete)
 * Sensor management with validation
@@ -18,10 +18,68 @@ A RESTful Smart Campus API built using JAX-RS to manage rooms, sensors, and sens
 
 ---
 
+## 🛠️ Build & Run
+
+### Prerequisites
+
+Before running the project, ensure the following are installed:
+
+* Java JDK 11 (and set as default)
+* Apache Maven
+* Payara Server 5
+* NetBeans IDE
+
+---
+
+### 🔧 Build the Project
+
+Open the project in NetBeans:
+
+* Right-click the project
+* Select **Build**
+
+This compiles the project and prepares it for deployment.
+
+---
+
+### 🚀 Run the Application
+
+1. Start Payara Server using the command line:
+
+```bash
+asadmin start-domain
+```
+
+2. Deploy and run the application using NetBeans:
+
+* Right-click the project
+* Select **Run**
+
+NetBeans will automatically deploy the application to the running Payara server.
+
+---
+
+### 🌐 Access the API
+
+Once the application is running, open a browser or Postman and navigate to:
+
+```
+http://localhost:8080/SmartCampus/api/v1
+```
+
+---
+
+### Stop the Server
+
+After use, stop the Payara server with:
+
+```bash
+asadmin stop-domain
+```
+---
+
 ## 🔗 API Endpoints
-
 ### Rooms
-
 * `GET /api/v1/rooms`
 * `POST /api/v1/rooms`
 * `GET /api/v1/rooms/{id}`
@@ -39,6 +97,7 @@ A RESTful Smart Campus API built using JAX-RS to manage rooms, sensors, and sens
 * `POST /api/v1/sensors/{id}/readings`
 
 ---
+
 # I have implemeneted the 500 Internal error feature but mistakenly forgot to explain it in the demonstration video.
 ## 📄 Report
 
